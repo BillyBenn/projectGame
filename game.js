@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 100;
+var winningScore = 50;
 
 // add collectable items to the game
 function addItems() {
@@ -21,10 +21,10 @@ function addItems() {
   createItem(650, 250, 'coin');
   createItem(225, 200, 'coin');
   createItem(100, 50, 'coin');
-  createItem(375, 100, 'poison');
-  createItem(370,500,'poison');
-  createItem(100, 375, 'poison');
-  createItem(650, 275, 'star');
+  createItem(700, 250, 'poison');
+  createItem(370, 500,'poison');
+  createItem(100, 25, 'poison');
+  createItem(650, 50, 'star');
 }
 
 // add platforms to the game
